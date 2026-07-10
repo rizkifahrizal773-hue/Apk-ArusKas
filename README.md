@@ -8,4 +8,4 @@ Link drive dokumentasi : https://drive.google.com/file/d/17QoM7kcbwj5tfjgX6vPINA
 
 Link drive install apk ArusKas : https://drive.google.com/file/d/1d3XdqjcwCVHfKe5EcmHoV9v4GwnJrUEK/view?usp=sharing
 
-Link drive video demo apk ArukKas : https://drive.google.com/file/d/18wvHpS7Uzuutm4g1DdK7uZz3G-4d_Woz/view?usp=sharing
+Link drive video demo apk ArusKas : https://drive.google.com/file/d/18wvHpS7Uzuutm4g1DdK7uZz3G-4d_Woz/view?usp=sharing
