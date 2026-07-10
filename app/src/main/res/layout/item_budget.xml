@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_budget"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/space_l"
+    android:layout_marginVertical="6dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="1dp"
+    app:strokeColor="@color/colorBorder"
+    app:strokeWidth="1dp"
+    app:cardBackgroundColor="@color/colorSurface"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_m"
+        android:gravity="center_vertical">
+
+        <!-- Circular Category Icon Badge -->
+        <FrameLayout
+            android:id="@+id/view_badge_bg"
+            android:layout_width="@dimen/badge_size"
+            android:layout_height="@dimen/badge_size"
+            android:background="@drawable/bg_badge_circle"
+            android:backgroundTint="@color/colorSkeleton">
+
+            <ImageView
+                android:id="@+id/img_category_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_category_other"
+                android:contentDescription="Category Icon" />
+
+        </FrameLayout>
+
+        <!-- Budget Progress Details -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/space_m"
+            android:orientation="vertical">
+
+            <!-- Title & Percentage Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="bottom">
+
+                <TextView
+                    android:id="@+id/text_category_name"
+                    style="@style/TextAppearance.ArusKas.Title"
+                    android:textSize="15sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kategori Anggaran" />
+
+                <TextView
+                    android:id="@+id/text_budget_percentage"
+                    style="@style/TextAppearance.ArusKas.Number"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="80%"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- Custom Progress Indicator -->
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/progress_budget"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="6dp"
+                app:trackColor="@color/colorBorder"
+                app:trackCornerRadius="4dp"
+                app:indicatorColor="@color/colorIncome"
+                tools:progress="80" />
+
+            <!-- Limit vs Spent Details Label -->
+            <TextView
+                android:id="@+id/text_budget_amounts"
+                style="@style/TextAppearance.ArusKas.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terpakai Rp 800.000 dari Rp 1.000.000" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

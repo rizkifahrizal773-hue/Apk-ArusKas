@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_report_category"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/space_l"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0.5dp"
+    app:strokeColor="@color/colorBorder"
+    app:strokeWidth="1dp"
+    app:cardBackgroundColor="@color/colorSurface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_m"
+        android:gravity="center_vertical">
+
+        <!-- Small Color Circle Swatch Legend -->
+        <View
+            android:id="@+id/view_color_indicator"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="@drawable/bg_badge_circle"
+            android:backgroundTint="@color/colorSkeleton" />
+
+        <!-- Category Name & Percentage -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/space_m"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/text_category_name"
+                style="@style/TextAppearance.ArusKas.Title"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kategori"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/text_category_percentage"
+                style="@style/TextAppearance.ArusKas.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_s"
+                android:text="25%"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Formatted Amount -->
+        <TextView
+            android:id="@+id/text_category_amount"
+            style="@style/TextAppearance.ArusKas.Number"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_l"
+            android:text="Rp 250.000"
+            android:textColor="@color/colorTextPrimary" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

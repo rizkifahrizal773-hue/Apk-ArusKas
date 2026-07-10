@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors (Lighter Indigo for Dark Mode to pass contrast guidelines) -->
+    <color name="colorPrimary">#8F82FF</color>
+    <color name="colorPrimaryDark">#5A48C8</color>
+    <color name="colorAccent">#C1B9FF</color>
+
+    <!-- Semantic finance colors (Slightly lighter/pastel versions for dark mode) -->
+    <color name="colorIncome">#2ECC71</color>
+    <color name="colorExpense">#E74C3C</color>
+    <color name="colorWarning">#F1C40F</color>
+
+    <!-- Neutral colors for Dark Mode -->
+    <color name="colorBackground">#121212</color>
+    <color name="colorSurface">#1E1E1E</color>
+    <color name="colorTextPrimary">#F5F6FA</color>
+    <color name="colorTextSecondary">#A0AEC0</color>
+    <color name="colorBorder">#2D3748</color>
+    <color name="colorSkeleton">#2D2D30</color>
+
+    <!-- Dark Mode Premium Shortcut Visual Tokens (Dark backgrounds instead of light pastels) -->
+    <color name="colorShortcutCategoryBg">#201C38</color>
+    <color name="colorShortcutCategory">#8F82FF</color>
+    <color name="colorShortcutBudgetBg">#332510</color>
+    <color name="colorShortcutBudget">#F1C40F</color>
+    <color name="colorShortcutReportBg">#0E2619</color>
+    <color name="colorShortcutReport">#2ECC71</color>
+    <color name="colorShortcutRecurringBg">#0D2030</color>
+    <color name="colorShortcutRecurring">#3498DB</color>
+
+    <!-- Loading overlay background -->
+    <color name="colorLoadingBackground">#99121212</color>
+
+    <!-- Standard colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

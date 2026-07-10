@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Available icon keys (stored in DB/JSON) -->
+    <string-array name="category_icons">
+        <item>food</item>
+        <item>transport</item>
+        <item>shopping</item>
+        <item>bills</item>
+        <item>entertainment</item>
+        <item>health</item>
+        <item>salary</item>
+        <item>bonus</item>
+        <item>gift</item>
+        <item>other</item>
+    </string-array>
+
+    <!-- Available icon display labels -->
+    <string-array name="category_icon_labels">
+        <item>Makanan &amp; Minuman</item>
+        <item>Transportasi</item>
+        <item>Belanja</item>
+        <item>Tagihan</item>
+        <item>Hiburan</item>
+        <item>Kesehatan</item>
+        <item>Gaji</item>
+        <item>Bonus</item>
+        <item>Hadiah</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <!-- Swatch palette colors (HEX) -->
+    <string-array name="category_swatches">
+        <item>#1ABC9C</item> <!-- Teal -->
+        <item>#2ECC71</item> <!-- Green -->
+        <item>#3498DB</item> <!-- Blue -->
+        <item>#9B59B6</item> <!-- Purple -->
+        <item>#F1C40F</item> <!-- Yellow -->
+        <item>#E67E22</item> <!-- Orange -->
+        <item>#E74C3C</item> <!-- Red -->
+        <item>#E84393</item> <!-- Pink -->
+        <item>#2D3436</item> <!-- Charcoal -->
+        <item>#6C5CE7</item> <!-- Brand Indigo -->
+    </string-array>
+</resources>

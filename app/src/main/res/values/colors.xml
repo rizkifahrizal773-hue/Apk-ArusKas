@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors (Indigo) -->
+    <color name="colorPrimary">#6C5CE7</color>
+    <color name="colorPrimaryDark">#341F97</color>
+    <color name="colorAccent">#A29BFE</color>
+
+    <!-- Semantic finance colors -->
+    <color name="colorIncome">#2ECC71</color>
+    <color name="colorExpense">#E74C3C</color>
+    <color name="colorWarning">#F39C12</color>
+
+    <!-- Neutral colors -->
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorTextPrimary">#2D3436</color>
+    <color name="colorTextSecondary">#636E72</color>
+    <color name="colorBorder">#DFE6E9</color>
+    <color name="colorSkeleton">#E5E5E5</color>
+
+    <!-- Premium Shortcut Visual Tokens -->
+    <color name="colorShortcutCategoryBg">#F3F0FF</color>
+    <color name="colorShortcutCategory">#6C5CE7</color>
+    <color name="colorShortcutBudgetBg">#FFF9E6</color>
+    <color name="colorShortcutBudget">#F39C12</color>
+    <color name="colorShortcutReportBg">#EBFBEE</color>
+    <color name="colorShortcutReport">#2ECC71</color>
+    <color name="colorShortcutRecurringBg">#E6F4FF</color>
+    <color name="colorShortcutRecurring">#0984E3</color>
+
+    <!-- Loading overlay background -->
+    <color name="colorLoadingBackground">#99FAFAFA</color>
+
+    <!-- Standard colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

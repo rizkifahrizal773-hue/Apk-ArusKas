@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_transaction"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/space_l"
+    android:layout_marginVertical="6dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="1dp"
+    app:strokeColor="@color/colorBorder"
+    app:strokeWidth="1dp"
+    app:cardBackgroundColor="@color/colorSurface"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_m">
+
+        <!-- Circular Category Icon Badge -->
+        <FrameLayout
+            android:id="@+id/view_badge_bg"
+            android:layout_width="@dimen/badge_size"
+            android:layout_height="@dimen/badge_size"
+            android:background="@drawable/bg_badge_circle"
+            android:backgroundTint="@color/colorSkeleton">
+
+            <ImageView
+                android:id="@+id/img_category_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_category_other"
+                android:contentDescription="Category Icon" />
+
+        </FrameLayout>
+
+        <!-- Transaction Details -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/space_m"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_transaction_title"
+                style="@style/TextAppearance.ArusKas.Title"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belanja Bulanan" />
+
+            <TextView
+                android:id="@+id/text_transaction_note"
+                style="@style/TextAppearance.ArusKas.Body"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Catatan transaksi..."
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_transaction_date"
+                style="@style/TextAppearance.ArusKas.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="2026-07-07" />
+
+        </LinearLayout>
+
+        <!-- Amount (Monospace aligned, income/expense colors) -->
+        <TextView
+            android:id="@+id/text_transaction_amount"
+            style="@style/TextAppearance.ArusKas.Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_s"
+            android:text="- Rp 150.000"
+            android:textColor="@color/colorExpense"
+            android:textAlignment="viewEnd" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
